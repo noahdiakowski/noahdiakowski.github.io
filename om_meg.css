@@ -1,0 +1,214 @@
+
+
+body{ 
+    background-color: rgb(5, 7, 50);
+    margin: 0px;
+    }
+
+nav {
+        background-color: rgb(17, 29, 51);
+        height: 50px;
+        width: 100%; 
+        position: fixed;
+        font-size: large;
+        text-align: center;
+
+    }
+
+ul{
+        list-style: none;
+        display: flex;
+        margin-left: 40px;
+        gap: 100px;
+        color: cornflowerblue;
+        text-shadow: 2px 2px rgb(0, 7, 84);
+    }
+
+
+#box1{
+        background-color: rgb(21, 33, 55);
+        height: 100px;
+        width: 25%;
+        margin-top: 50px;
+        margin-left: 550px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-style: dashed;
+        border-color: blue;
+        text-shadow: 2px 2px rgb(0, 7, 84);
+    }
+#boks{ background-color: rgb(21, 33, 55);
+        height: 100px;
+        width: 25%;
+        margin-top: 25px;
+        margin-left: 550px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        border-style: dashed;
+        border-color: blue;
+        text-shadow: 2px 2px rgb(0, 7, 84);
+    }
+
+#boks1{ background-color: rgb(21, 33, 55);
+        height: 100px;
+        width: 25%;
+        margin-top: 25px;
+        margin-left: 550px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-style: dashed;
+        border-color: blue;
+        column-gap: 30px;
+        text-shadow: 2px 2px rgb(0, 7, 84);
+    }
+
+
+h2 {
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px rgb(0, 7, 84);
+}
+
+#connor{
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+}
+
+#me{
+    height: 250px;
+    width: 170px;
+    margin-left: 700px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+
+}
+
+
+.link:hover{
+    font-size: x-large;
+    color: rgb(31, 71, 96);
+}
+
+.link:visited{
+    color: rgb(106, 106, 183);}
+
+#wrapper2{
+    padding-top: 100px;
+}
+
+#box2{
+    border-style: dashed;
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    text-shadow: 2px 2px rgb(0, 7, 84);
+}
+
+#info {
+    color: cornflowerblue;
+    gap: 30px;
+    border-style: dotted;
+    border-color: blue;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+  flex-direction: row;
+  column-gap: 30px;
+  text-shadow: 2px 2px rgb(0, 7, 84);
+}
+
+p{
+    color:cornflowerblue;
+    font-size: larger;
+    text-shadow: 2px 2px rgb(0, 7, 84);
+}
+ 
+#ok{
+    height: 250px;
+    width: 500px;
+    margin-left: 450px;
+    border-color: rgb(0, 128, 255);
+    border-style: solid;
+    border-width: 7px;
+ }
+
+ #back{
+    background-color:darkslateblue;
+ }
+
+#box3{
+    background-color: rgb(93, 14, 177);
+        height: 100px;
+        width: 25%;
+        margin-left: 550px;
+        border-style: dashed;
+        border-color: rgb(93, 0, 121);
+        display: flex;
+        font-size: large;
+        text-align: center;
+        border-radius: 25px;
+        text-shadow: 2px 2px rgb(0, 7, 84);
+    }
+
+    ol {
+        list-style-position: inside;
+    }
+    
+    #Artists {
+        background-color: rgb(57, 41, 107);
+        width: 350px;
+        height: auto;
+        border-color: blueviolet;
+        border-style: dashed;
+        font-size: x-large;
+        color: rgb(1, 5, 33);
+    }
+    
+    #Movies {
+        background-color: rgb(66, 0, 128);
+        width: 350px;
+        height: auto;
+        border-color: blueviolet;
+        border-style: dashed;
+        font-size: x-large;
+        color: rgb(1, 5, 33);
+        text-shadow: 2px 2px rgb(0, 7, 84);
+    }
+    
+    #wrapper4 {
+        display: flex;
+        flex-direction: row;
+        /*SUPER WAZNE ZEBY ZMIENIC JAK DUZY ODSTEP JEST POD TYM TEKSTEM*/
+        column-gap: 30px;
+        /*Okej, to pod spodem teraz to mozna zmienic inna czescia kodu, tylko daje przyklad zeby na srodku miec*/
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+  #lamb{
+        height: 300px;
+        width: 250px;
+        margin-top: 30px;
+        border-style: solid;
+        border-color: rgb(98, 0, 255);
+        border-width: 5px;
+        margin-left: 30px;
+  }
+
+  #spe{
+    color: red;
+    font-size: medium;
+    text-shadow: 2px 2px rgb(0, 7, 84);
+  }
+
